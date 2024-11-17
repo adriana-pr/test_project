@@ -1,0 +1,516 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+}
+nav a,
+.testimonials-card .text, footer a{
+  font-family: Roboto;
+  font-size: 16px;
+  color: #343434;
+  font-weight: 500;
+}
+
+nav a, footer a{
+  text-decoration: none;
+  padding: 5px 16px;
+  text-underline-offset: 16px;
+}
+nav a:hover,footer a:hover {
+  border-bottom: 2px solid #343434;
+}
+nav .text-icon::after {
+  content: url("../img/Icon.png");
+  color: #003366;
+  width: 5px;
+  position: relative;
+  top: 6px;
+}
+nav button {
+  background: #003366;
+  font-size: 20px;
+  border-radius: 14px;
+  padding: 10px;
+  border: none;
+  margin-left: 40px;
+}
+nav button a {
+  color: #ffffff;
+  width: 110px;
+  height: 58px;
+  font-weight: 400;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+#welcome {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+  color: #fbfbfb;
+}
+#welcome .text {
+  background: #003366;
+  border-radius: 20px;
+  margin-right: 24px;
+  padding-left: 80px;
+}
+#welcome .text h1 {
+  width: 70%;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 57.6px;
+  max-width: 729px;
+  font-family: Poppins;
+}
+#welcome .text h1 + h1 {
+  margin-top: -30px;
+  margin-bottom: 0px;
+}
+#welcome .text p {
+  font-size: 18px;
+  margin-top: 16px;
+}
+#welcome .text button {
+  width: 185px;
+  height: 58px;
+  background: #fbfbfb;
+  color: #003366;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+  border-radius: 14px;
+  margin-top: 40px;
+}
+
+.advantages {
+  background: #e0e7ef;
+  margin: 0 -10px;
+  height: 560px;
+  color: #003366;
+  padding: 20px;
+}
+.advantages .heading {
+  background: #fbfbfb;
+}
+.heading {
+  text-transform: uppercase;
+  font-size: 42px;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #003366;
+}
+
+.heading .heading-text {
+  padding: 15px;
+}
+#our-courses .heading-text,
+.testimonials .heading-text {
+  margin: 0;
+  margin-top: 50px;
+}
+.advantages .items-container,
+.icon-text,
+.slide-buttons .indication,
+.ask-form form,
+.content,
+.block2,
+.label-container,
+.testimonials-card,
+.testimonials-card .card-content,
+.slide-buttons,
+.question-header,
+.items-card,
+.ask-form,
+footer {
+  display: flex;
+}
+.advantages .items-container .item {
+  width: 431px;
+  background: #fbfbfb;
+  margin-left: 20px;
+  text-align: center;
+  padding: 20px;
+}
+.advantages .items-container .item:first-child {
+  margin-left: 0px;
+}
+.advantages .items-container .item h2,
+.course-title h2,
+.ask-form h2{
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 500;
+  color: #003366;
+  font-family: Poppins;
+}
+.advantages .items-container .item p,
+.text-program, footer p{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Roboto;
+  color: #003366;
+  line-height: 27px;
+}
+#about-us .text {
+  display: flex;
+  justify-content: space-between;
+  color: #003366;
+  text-transform: uppercase;
+}
+#about-us .text h2,
+#schedule-call h1,
+.testimonials-card .text h2 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 42px;
+}
+.text-img {
+  display: flex;
+  align-items: center;
+}
+.text-img img {
+  width: 13px;
+  height: 13px;
+  background: #003366;
+  padding: 15px;
+  border-radius: 50px;
+}
+.text-img p {
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Roboto;
+}
+
+.content .content-block {
+  width: 660px;
+  color: #fbfbfb;
+  margin-left: 20px;
+}
+.content .block1{
+  margin-bottom: 10px;
+}
+.content .block1,
+.content .container-text {
+  background: #003366;
+  border-radius: 14px;
+  padding: 17px;
+}
+
+.block2 .container-text,
+.course-label .label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.block2 .container-text {
+  width: 317px;
+  height: 211px;
+  flex-direction: column;
+  margin-right: 10px;
+}
+.block2 .container-text:last-child {
+  margin-right: 0px;
+}
+
+.content .block1 h2 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+}
+.content .block2 h2 {
+  font-size: 42px;
+}
+.content .block1 p,
+.content .block2 p,
+#schedule-call p,
+#schedule-call .container .form input {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+.course {
+  padding: 0 40px;
+}
+.course-title,
+#schedule-call .container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.icon {
+  background: #003366;
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.course {
+  border: 2px solid #003366;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.label-container {
+  display: flex;
+  margin: 30px 0px;
+}
+.course-label {
+  width: 135px;
+}
+.course-label .label {
+  background: #eff3f7;
+  border-radius: 45px;
+  height: 47px;
+  margin-right: 10px;
+}
+.course-label .label span,
+.question-header,
+.question .show-answer {
+  color: #343434;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 18px;
+}
+.course-label .label span {
+  margin-left: 10px;
+}
+.text-program {
+  color: #343434;
+}
+.text-program .title-program {
+  color: #003366;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.text-program .title {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.text-program .text::before {
+  content: url("../img/Form-Validation-Check.png");
+  position: relative;
+  top: 6px;
+  padding-right: 10px;
+}
+.price {
+  margin-top: 40px;
+}
+.price span {
+  color: #003366;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 30px;
+}
+.price .text {
+  border-right: 2px solid #003366;
+  padding-right: 16px;
+}
+.price .number {
+  padding-left: 16px;
+}
+
+.course button,
+.container .form button {
+  width: 216px;
+  height: 58px;
+  background: #003366;
+  border: none;
+  border-radius: 14px;
+  margin: 40px 0;
+  color: #fbfbfb;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+}
+#schedule-call {
+  margin: 0 -10px;
+  background: #003366;
+}
+#schedule-call .heading {
+  color: #fbfbfb;
+}
+#schedule-call .container {
+  align-items: center;
+}
+#schedule-call .container .form input , .items-card .ask-form input, .items-card .ask-form textarea{
+  display: block;
+  width: 658px;
+  height: 64px;
+  background: #fbfbfb;
+  border-radius: 4px;
+  border: 1px solid #ececec;
+  color: #343434;
+  padding-left: 16px;
+  margin-bottom: 24px;
+  font-weight: 400;
+}
+
+#schedule-call .container .form {
+  margin: 50px 0 50px 40px;
+}
+.container .form button {
+  color: #003366;
+  background: #fbfbfb;
+  margin: 20px 0;
+}
+.testimonials-card .text p {
+  font-weight: 400;
+}
+.testimonials-card .text h2 {
+  font-size: 20px;
+}
+.testimonials-card .text {
+  width: 340px;
+}
+.testimonials-card .card-content {
+  border: 1px solid #003366;
+  padding: 20px;
+  border-radius: 12px;
+  align-items: center;
+  width: 580px;
+}
+.testimonials-card {
+  justify-content: space-between;
+}
+.testimonials-card .card-content .img {
+  height: 225px;
+  margin-right: 20px;
+}
+.slide-buttons {
+  border: 1px solid #bfccd8;
+  border-radius: 100px;
+  width: 221px;
+  height: 56px;
+  margin: 50px auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.slide-buttons .arrow-button {
+  background: #c2d1e0;
+  width: 32px;
+  height: 32px;
+  border-radius: 46px;
+  padding: 6px;
+}
+.slide-buttons .arrow-button img {
+  width: 10px;
+  position: relative;
+  top: 7.5px;
+  left: 8.5px;
+}
+.slide-buttons .right {
+  background: #003366;
+}
+.slide-buttons .right img {
+  transform: rotate(180deg);
+  top: 7.5px;
+  left: 11px;
+}
+.indication .rectangle {
+  background: #c2d1e0;
+  width: 15px;
+  height: 6px;
+  border-radius: 20px;
+  margin: 2px;
+}
+.indication .active {
+  background: #003366;
+  width: 24px;
+}
+.question-header,
+.question .answer {
+  font-size: 20px;
+}
+.questions {
+  width: 770px;
+}
+.question {
+  padding: 40px;
+  border: 1px solid #003366;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+.question .icon-button {
+  background: #003366;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+}
+.question-header{
+  justify-content: space-between;
+  align-items: center;
+}
+.question-header .icon-button .rectang{
+  width: 18px;
+  height: 2px;
+  background: #FBFBFB;
+  position: relative;
+  border-radius: 50px;
+  top: 19px;
+  left: 11px;
+
+}
+.question-header .icon-button .rectangrotate{
+  transform: rotate(90deg);
+  top: 20.5px;
+}
+.show-answer{
+  width: 550px;
+  border-top: 2px solid #003366
+}
+.ask-form{
+  background: #003366;
+  width: 544px;
+  border-radius: 14px;
+  margin-left: 30px;
+ height: 755px;
+}
+.ask-form, .ask-form form {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ask-form h2{
+  color: #FBFBFB;
+  text-align: center;
+  padding: 0 70px 40px 70px;
+  border-bottom: 2px solid #FBFBFB;
+  margin-bottom: 40px;
+}
+.items-card{
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.items-card .ask-form input{
+  width: 420px;
+  height: 60px;
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+.items-card .ask-form textarea{
+  width: 400px;
+  font-size: 18px;
+ height: 115px;
+ padding: 20px;
+}
+footer{
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+footer p{
+  font-size: 16px;
+}
